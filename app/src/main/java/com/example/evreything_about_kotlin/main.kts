@@ -13,3 +13,16 @@ var yes : Boolean = True
 val ok : Integer = 4
 
 //veri turleri
+//numbers:  Byte, short, integer, long, float, double, boolean
+//characters: char 
+//string 
+var txt : String  = "hello world" 
+var txt2 : String = "mahmud code"
+println(txt[0]) // h
+println(txt.Length) // bir stringin karakter sayısını yazdırır
+println(txt.ToUpperCase()) // karakterleri buyuk harfe donusturur
+println(txt.ToLowerCase()) // karakterleri kucuk karaktere donusturur 
+println(txt.Compareto(txt2)) // iki diziyi karsilastirir ( eger aynıysa 0 dondurur) 
+println(txt.IndexOf("world")) // bir karakter dızısındekı belırlı karekterı yazdirir
+println(name.Plus(last_name)) // iki dizini birlestirir
+println("hello my name is " $name $last_name) // bir dizinin icine degisken ekleme
