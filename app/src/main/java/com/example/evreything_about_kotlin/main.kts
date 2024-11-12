@@ -36,4 +36,10 @@ val kalbim : String = ArrayOf("mahmud", "sinem", "code")
     }else{
         println("hayatin bokum gibi")
     }
+    for(x in kalbim){
+        println(x)
+    }
 
+
+
+//kosul yapilari
