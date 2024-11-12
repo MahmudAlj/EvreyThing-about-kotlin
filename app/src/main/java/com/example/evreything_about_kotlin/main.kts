@@ -26,3 +26,14 @@ println(txt.Compareto(txt2)) // iki diziyi karsilastirir ( eger aynıysa 0 dondu
 println(txt.IndexOf("world")) // bir karakter dızısındekı belırlı karekterı yazdirir
 println(name.Plus(last_name)) // iki dizini birlestirir
 println("hello my name is " $name $last_name) // bir dizinin icine degisken ekleme
+//boolean: true or false 
+//array 
+val kalbim : String = ArrayOf("mahmud", "sinem", "code")
+    println(kalbim[0])
+    println(kalbim.size)
+    if("sinem" in kalbim){
+        println("COK MUTLUSUN")
+    }else{
+        println("hayatin bokum gibi")
+    }
+
