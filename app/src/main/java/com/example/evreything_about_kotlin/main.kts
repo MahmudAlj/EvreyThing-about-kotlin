@@ -7,12 +7,12 @@ var age = 20 //   mutable variables
 val name = "mahmud" // read_only variables 
 
 // data types
-var hight : Float = 1.81 
+var hight : Float = 1.81f 
 val last_name : String = "code" 
 var monay : Double = 22.654
 val favo : Character = 't'
 var yes : Boolean = True 
-val ok : Integer = 4
+val ok : Int = 4
 
 //veri turleri
 //numbers:  Byte, short, integer, long, float, double, boolean
@@ -29,6 +29,7 @@ println(txt.IndexOf("world")) // bir karakter dızısındekı belırlı karekter
 println(name.Plus(last_name)) // iki dizini birlestirir
 println("hello my name is  $name $last_name") // bir dizinin icine degisken ekleme
 //boolean: true or false 
+// collection types: list , Sets, Maps
 //array 
 val kalbim : String = ArrayOf("mahmud", "sinem", "code")
     println(kalbim[0])
@@ -41,8 +42,12 @@ val kalbim : String = ArrayOf("mahmud", "sinem", "code")
     for(x in kalbim){
         println(x)
     }
+val liste : String = ListOf ("maho" , "musti", "sino")
+println(liste)
 
-
+val sekiller : MultableList <String> = mutableListOf ( "ucgen", "kare", "daire")
+println(sekiller)
+ 
 //type conversion
 val sayi : Int  = 20
 
