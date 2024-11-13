@@ -11,7 +11,7 @@ var hight : Float = 1.81f
 val last_name : String = "code" 
 var monay : Double = 22.654
 val favo : Character = 't'
-var yes : Boolean = True 
+var yes : Boolean = True    
 val ok : Int = 4
 
 //veri turleri
@@ -42,11 +42,25 @@ val kalbim : String = ArrayOf("mahmud", "sinem", "code")
     for(x in kalbim){
         println(x)
     }
+
+// listeler
 val liste : String = ListOf ("maho" , "musti", "sino")
 println(liste)
 
 val sekiller : MultableList <String> = mutableListOf ( "ucgen", "kare", "daire")
 println(sekiller)
+
+// dokum
+val isimler : MultableList<String> = mutableListOf("mahmud", "sinem", "code")
+val degismeyen_isimler : List<String> = isimler
+println(isimler.first())
+println(isimler.last())
+println(isimler.count())
+println("sinem" in isimler)
+isimler.add("irem")
+isimler.remove("irem")
+
+ 
  
 //type conversion
 val sayi : Int  = 20
