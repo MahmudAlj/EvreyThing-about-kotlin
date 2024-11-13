@@ -1,8 +1,10 @@
-println("hello world")
+fun main () { // fun is used to declare a Function main is where my program starts from 
+
+println("hello world") // functioon print their arguments to stardard output 
 print("merhaba mahmud")
 
-var age = 20 
-val name = "mahmud" 
+var age = 20 //   mutable variables 
+val name = "mahmud" // read_only variables 
 
 // data types
 var hight : Float = 1.81 
@@ -25,7 +27,7 @@ println(txt.ToLowerCase()) // karakterleri kucuk karaktere donusturur
 println(txt.Compareto(txt2)) // iki diziyi karsilastirir ( eger aynıysa 0 dondurur) 
 println(txt.IndexOf("world")) // bir karakter dızısındekı belırlı karekterı yazdirir
 println(name.Plus(last_name)) // iki dizini birlestirir
-println("hello my name is " $name $last_name) // bir dizinin icine degisken ekleme
+println("hello my name is  $name $last_name") // bir dizinin icine degisken ekleme
 //boolean: true or false 
 //array 
 val kalbim : String = ArrayOf("mahmud", "sinem", "code")
@@ -41,5 +43,16 @@ val kalbim : String = ArrayOf("mahmud", "sinem", "code")
     }
 
 
+//type conversion
+val sayi : Int  = 20
+
+
+
+
 
 //kosul yapilari
+if()
+
+
+
+}
